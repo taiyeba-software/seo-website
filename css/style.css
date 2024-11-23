@@ -61,18 +61,146 @@ body{
 }
 
 ::-webkit-scrollbar-track{
-    background-color: var(--secondary-color);
+    background-color:var(--bg-gray);
 }
 
 ::-webkit-scrollbar-thumb{
-    background:var(--bg-gray);
+    background:var(--secondary-color);
+}
+
+section{
+    padding: 50px 0;
+}
+
+.main-btn{
+    display: inline-block;
+    border-radius: 26px;
+    transition: 0.2s;
+    padding: 10px 37px;
+    background-color: var(--secondary-color);
+    color: var(--bg-white);
+    font-weight: 700;
+    font-family: var(--primary-font);
+    font-size: 17px;
+    text-decoration: none;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    &:hover{
+        background-color: var(--bg-blue);
+        color: var(--bg-white);
+    }
+
+}
+
+h1{
+    font-size: 70px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-blue);
+    margin-bottom:16px;
+}
+
+
+h2{
+    font-size: 45px;
+    line-height: 64px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-blue);
+    margin-bottom:15px;
+    letter-spacing: 0;
+}
+
+h3{
+    font-size: 30px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-blue);
+    margin-bottom:15px;
+    letter-spacing: 0;
+}
+
+p{
+    color: var(--text-gray);
+    font-size: 15px;
+    line-height: 28px;
+    font-size: normal;
+    font-weight: 400;
+}
+
+a{
+    display: inline;
+    text-decoration: none;
+}
+
+input:hover,
+input:focus,
+textarea:focus,
+textarea:hover,
+button{
+    border-color: var(--secondary-color) !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 /* ===================navbar ================ */
 
-/* 3.banner ================ */
-/* 4.about================  */
-/* 5.services ===============  */
-/* 6.portfolio================  */
-/* 7.contact =============== */
-/* 8.footer  ==============  */
+.header_wrapper .navbar{ /*for supporting all kind animation*/
+    transition: all 0.2 linear;
+    -moz-transition:all 0.2 linear;
+    -webkit-transition: all 0.2 linear;
+    -o-transition: all 0.2 linear;
+}
+
+.header_wrapper .navbar-brand img{
+    max-width: 150px;
+    height: auto;
+}
+
+.header_wrapper .navbar .navbar-toggler{
+    border: none;
+}
+.header_wrapper .navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.header_wrapper .navbar .nav-item{
+    margin: 0 10px;
+}
+.header_wrapper .navbar .nav-item .nav-link{
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--bg-blue);
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+
+
+.header_wrapper .navbar .nav-item .nav-link:active{
+    color: var(--secondary-color);
+}
+
+.header-scrolled{
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background-color: var(--bg-white);
+    box-shadow: 0 4px 6px 0 rgba(12,.0,46,0.5);
+}
+
+
+
+
+/*now for */
+/*=================== 3.banner ================ */
+.banner_wrapper{
+    margin-top: 70px;
+}
+
+/*=================== 4.about================  */
+/*=================== 5.services ===============  */
+/*================== 6.portfolio================  */
+/*================== 7.contact =============== */
+/*================== 8.footer  ==============  */
