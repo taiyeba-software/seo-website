@@ -45,7 +45,7 @@
 
 body{
     font-family: var(--primary-font);
-    background-image: url('../images/page-background.jpg');
+    /* background-image: url('../images/page-background.jpg');  */
     background-size: cover;
     background-position: center 0px;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ h2{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 25px;
     font-family: var(--primary-font);
     font-weight: 700;
     color: var(--text-blue);
@@ -131,7 +131,7 @@ a{
     display: inline;
     text-decoration: none;
 }
-
+/*
 input:hover,
 input:focus,
 textarea:focus,
@@ -141,14 +141,16 @@ button{
     outline: none !important;
     box-shadow: none !important;
 }
-
+*/
 /* ===================navbar ================ */
 
 .header_wrapper .navbar{ /*for supporting all kind animation*/
     transition: all 0.2 linear;
+    
     -moz-transition:all 0.2 linear;
     -webkit-transition: all 0.2 linear;
     -o-transition: all 0.2 linear;
+
 }
 
 .header_wrapper .navbar-brand img{
@@ -175,7 +177,7 @@ button{
 }
 
 
-.header_wrapper .navbar .nav-item .nav-link:active{
+.header_wrapper .navbar .nav-item .nav-link.active{
     color: var(--secondary-color);
 }
 
@@ -201,6 +203,42 @@ button{
 
 /*=================== 4.about================  */
 /*=================== 5.services ===============  */
+.services_wrapper h3 span{
+    color: var(--secondary-color);
+}
+
+.services_wrapper .service-phone{
+    max-width: 70%;
+}
+
+/* ===================blog=======================  */
+.blog_wrapper .newsletter_wrapper{
+    background-color: var(--bg-blue);
+}
+
+.blog_wrapper .newsletter_wrapper .newsletter{
+    max-width: 50%;
+    margin: auto;
+}
+.blog_wrapper .newsletter_wrapper .newsletter .form-control{
+    background-color: var(--bg-dark-blue);
+    border-color: var(--bg-dark-blue);
+    border-style: solid;
+    border-radius: 26px;
+    color: var(--bg-white);
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 10px 32px;
+
+}
+
+.blog_wrapper input::placeholder{
+color: var(--bg-white);
+}
+
+
+
 /*================== 6.portfolio================  */
 /*================== 7.contact =============== */
 /*================== 8.footer  ==============  */
