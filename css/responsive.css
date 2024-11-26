@@ -20,7 +20,9 @@
         }
         */
         /* about  */
-        
+
+        /* blog  */
+          
         
         /* portfolio  */
         
@@ -38,6 +40,10 @@
         .services_wrapper .service-phone{
             max-width: 100%;
         }
+
+        /* blog */
+         
+        
         
       
         /* about  */
@@ -86,6 +92,9 @@
   
     /* about  */
 
+    /* blog  */
+   
+
 
     /* portfolio  */
 
@@ -113,6 +122,11 @@
 
 
     /* about  */
+
+    /* blog  */
+    .blog_wrapper .form-class form{
+        margin-left:0%;
+    }
 
 
     /* portfolio  */

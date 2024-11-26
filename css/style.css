@@ -216,29 +216,58 @@ button{
     background-color: var(--bg-blue);
 }
 
-.blog_wrapper .newsletter_wrapper .newsletter{
-    max-width: 50%;
-    margin: auto;
-}
-.blog_wrapper .newsletter_wrapper .newsletter .form-control{
-    background-color: var(--bg-dark-blue);
-    border-color: var(--bg-dark-blue);
-    border-style: solid;
-    border-radius: 26px;
-    color: var(--bg-white);
-    font-size: 15px;
-    line-height: 30px;
-    font-weight: 400;
-    padding: 10px 32px;
 
+
+.blog_wrapper .form-class input{
+    background-color: var(--bg-blue);
 }
+
 
 .blog_wrapper input::placeholder{
 color: var(--bg-white);
 }
 
+.blog_wrapper a{
+    color: var(--text-blue);
+    text-decoration: none;
+}
+
+.blog_wrapper .date,
+.blog_wrapper .card a:hover{
+    color: var(--secondary-color);
+}
+
+.blog_wrapper .form-class form input{
+    color: var(--bg-white);
+} 
+
+/*================== 6.contact =============== */
+.contact_wrapper input,
+.contact_wrapper textarea{
+background-color: var(--bg-white);
+border-color: var(--secondary-color);
+color: var(--bg-gray);
+font-size: 15px;
+font-weight: 400;
+padding: 15px 32px 15px 21px;
+}
 
 
-/*================== 6.portfolio================  */
-/*================== 7.contact =============== */
+
+
 /*================== 8.footer  ==============  */
+.footer_wrapper{
+    background-color: var(--bg-dark-blue);
+}
+
+
+.footer_wrapper a{
+    color: var(--text-white);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer_wrapper a:hover{
+    color: var(--secondary-color);
+}
